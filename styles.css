@@ -5,6 +5,11 @@
 header {
     background-color: #1f2937;
     display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+header img {
+    flex: 1;
 }
 
 header h1 {
@@ -20,5 +25,5 @@ header ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
