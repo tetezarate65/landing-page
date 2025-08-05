@@ -1,0 +1,24 @@
+* {
+    font-family: "Roboto";
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 900;
+}
+
+header ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
