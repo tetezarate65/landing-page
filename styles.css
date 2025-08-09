@@ -2,20 +2,22 @@
     font-family: "Roboto";
 }
 
-header {
+header, footer {
     background-color: #1f2937;
     display: flex;
     justify-content: flex-end;
-    padding: 10px 30px;
-}
-header img {
-    flex: 1;
+    padding: 20px 30px;
+    margin: 0px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
-header h1 {
-    font-size: 48px;
-    color: #F9FaF8;
-    font-weight: 900;
+footer {
+    justify-content: center;
+}
+
+header img {
+    flex: 1;
 }
 
 header ul {
@@ -26,4 +28,113 @@ header ul {
     padding: 0;
     display: flex;
     gap: 15px;
+}
+
+.first {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px;
+}
+
+.first .text {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    flex: 1;
+}
+
+.first img {
+    flex: 1;
+}
+
+.first button {
+    flex: 0 1 auto;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 7px;
+    padding: 10px;
+    width: 120px;
+    border-color: transparent;
+
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+.second {
+    padding: 100px;
+    margin: 0px auto;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.card img {
+    border: blue;
+    border-radius: 16px;
+    width: 200px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    padding:200px
+}
+
+.third h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.fourth {
+    background-color: #3882f6;
+    margin: 75px 125px;
+    padding: 30px 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth div {
+    flex: 3;
+}
+
+.fourth button {
+    flex: 0 0 auto;
+    align-self: center;
+    border-color: #e5e7eb;
+    box-shadow: none;
+    background-color: transparent;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 10px 30px;
+    flex: 0 0 auto;
+    width: 130px;
+}
+
+.fourth h3 {
+    padding: 0px;
+    margin: 0px;
+    color: #e5e7eb;
+}
+.fourth p {
+    padding: 0px;
+    margin: 0px;
+    color: #e5e7eb;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
